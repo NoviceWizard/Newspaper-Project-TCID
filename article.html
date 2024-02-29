@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <nav>
+        <div class="hamburger">☰</div>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="article.html">Article</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <header class="article-header">
+        <h1>Crow Arrested for Impersonating Car</h1>
+        <p>By Bjorn Battleaxe | Aug. 08</p>
+        <h1> New Kobold Run Bakery in Town</h1>
+        <p>By Grandalf the Orange | Aug. 07</p>
+        <h1>Fisherman Catches Traveling Waterhag</h1>
+        <p>By Jarnathan Bluefeather | July 31</p>
+    </header>
+</head>
+<body>
+<main class="article-content">
+    <section>
+        <h2>Merchants</h2>
+        <p>The Inner Fire Bakery has opened on Cobble Street. New treats like scorched bread and...</p>
+        <!-- Add images or other multimedia content as needed -->
+    </section>
+    <section>
+        <h2>Crime</h2>
+        <p>Crowtoni Feather was arrested yesterday at midnight for impersonating a honking car. Is this an overreach of...</p>
+    </section>
+    <section>
+        <h2>Entertainment</h2>
+        <p>Local fisherman accidently hooks traveling Waterhag who promises a curse upon Rivington in the form of a legal battle...</p>
+    </section>
+    <aside class="sidebar">
+        <section class="advertisement">
+            <h3>Rats Law Firm</h3>
+            <img src="images\Rats-Law-Firm.jpg" alt="Rat in Cup">
+            <p>Rats don't have laws but you do! Write P.O. Box 2839</p>
+        </section>
+    </aside>
+</main>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+    <!--- Content Section and Sidebar will go here -->
+    <footer>
+        <p>Contact us at rivingtonpost@magic.com</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class= "main-header"><h1>Rivington Post</h1></div>
+        <nav>
+            <div class="hamburger">☰</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="photo"><img src="images\Rivington-Front-Page.jpg" alt="Picture of Rivington"></div>
+        <section class="featured-article">
+            <h2>Featured Article</h2>
+            <p>Bank of Rivington Finds Goblins on Property</p>
+            <p>Crime Rampant in Fighting Rings</p>
+            <!-- Article content here-->
+        </section>
+        <section class="latest-news">
+            <h2>Latest News</h2>
+            <p>Tax Fraud for Goblins</p>
+            <p>Fisherman Catches Traveling Waterhag</p>
+            <!-- News items here-->
+        </section>
+    </main>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+        });
+    </script>
+    <footer>
+        <p>Contact us at rivingtonpost@magic.com</p>
+    </footer>
+</body>
+</html>
